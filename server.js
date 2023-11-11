@@ -5,7 +5,7 @@ const connectDB = require("./config/db");
 
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
-
+    
 const port = 5000
 
 app.get('/', (req, res) => {
